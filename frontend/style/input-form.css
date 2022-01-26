@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 25px 50px 0 0;
+  text-align: right;
+}
+
+.navbar a {
+  padding: 7px;
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  text-align: right;
+  margin: 11px;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.navigation:hover {
+  background-color: rgb(40, 58, 75);
+  transition: .5s;
+}
+
+.navigation.a:active {
+  background-color: rgb(40, 58, 75);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+/* Flexbox: Header  */
+/* Flexbox: Header  */
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  z-index: 10;
+}
+
+.logo {
+  background-color: rgb(30, 30, 32);
+  height: 80px;
+  width: 25%;
+  padding-left: 5%;
+  padding-top: 0;
+}
+
+.logo img {
+  width: 90px;
+}
+
+.nav {
+  background-color: rgb(30, 30, 32);
+  height: 80px;
+  width: 75%;
+}
+
+/*  Container für Scrollpunkt. */
+/*  Container für Scrollpunkt. */
+
+.inhalt {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.picture {
+  display: flex;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Stardos Stencil', cursive;
+  text-align: center;
+  color: #616161;
+  margin: 20px;
+}
+
+h3 {
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Stardos Stencil', cursive;
+  color: #121212;
+  margin: 20px;
+}
+
+li a:hover {
+  transition: .5s;
+  color: #818181;
+  text-decoration: none;
+}
+
+.quotes {
+  text-align: center;
+  padding-top: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  line-height: 150%;
+  font-size: 32px;
+  color: #818181;
+  font-family: 'Stardos Stencil', cursive;
+}
+
+.title {
+  text-align: center;
+  font-size: 54px;
+  color: #616161;
+  padding-top: 100px;
+  line-height: 150%;
+  font-family: 'Stardos Stencil', cursive;
+}
+
+.quote {
+  display: inline-block;
+  font-family: 'Stardos Stencil', cursive;
+}
+
+.footertext {
+  font-size: 16px;
+  text-align: center;
+  line-height: 160%;
+  color: #fff;
+  font-family: 'Stardos Stencil', cursive;
+
+}
+
+footer {
+  background-color: rgb(30, 30, 32);
+}
+
+.fliesstext {
+  font-size: 22px;
+  text-align: center;
+  line-height: 160%;
+  color: #818181;
+  font-family: 'Stardos Stencil', cursive;
+}
+
+:root {
+  --success-color: #639468;
+  --error-color: #c64638;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+input {
+  margin: auto;
+  display: flex;
+  text-align: center;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin: 100px auto 150px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+#form {
+  text-align: center;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.form-control label {
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+
+label {
+  font-family: 'Stardos Stencil', cursive;
+  margin-top: 15px;
+  color: #616161;
+}
+
+.anrede {
+  font-family: 'Stardos Stencil', cursive;
+  margin-top: 15px;
+  color: #616161;
+}
+
+small {
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.form {
+  width: 300px;
+}
+
+.form label {
+  display: block;
+  font-size: 22px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 18px;
+  color: #616161;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.form-control.success input {
+  border-color: var(--success-color);
+}
+
+.form-control.error input {
+  border-color: var(--error-color);
+}
+
+.form-control small {
+  color: var(--error-color);
+  position: absolute;
+  /* bottom: 0;*/
+  left: 0;
+  margin-top: 5px;
+  visibility: hidden;
+  font-size: .8rem;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 5px 15px;
+  font-family: 'Stardos Stencil', cursive;
+  color: #fff;
+  font-size: 22px;
+  border: 1px solid;
+  border-radius: 12px;
+  background-color: #616161;
+}
+
+button:hover {
+  background-color: rgb(30, 30, 32);
+  transition: 1s;
+  color: #fff;
+  cursor: pointer;
+}
+
+select {
+  color: #616161;
+  width: 300px;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 1.5em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Stardos Stencil', cursive;
+  color: #616161;
+}

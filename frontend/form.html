@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style/input-form.css" />
+  <title>Contact Validator</title>
+</head>
+
+<body>
+
+<!-- Header -->
+<header class="header" id="myHeader">
+
+  <div class="logo">
+    <a href="index.html"><img src="assets/logo.png" alt="logo"></a>
+  </div>
+
+  <nav class="nav">
+    <div class="navbar">
+      <a class="navigation" href="index.html">Home</a>
+      <a class="navigation" href="form.html">Form</a>
+    </div>
+  </nav>
+</header>
+
+<img class="picture" src="assets/xiao.png" alt="xiao">
+  <div class="container">
+    <form id="form" class="form">
+      <h1>Create your User and stay updated!</h1>
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter your E-mail" />
+        <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="firstname">Firstname</label>
+        <input type="text" id="firstname" placeholder="Enter your Firstname" />
+        <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="lastname">Lastname</label>
+        <input type="text" id="lastname" placeholder="Enter your Lastname" />
+        <small>Error message</small> 
+      </div>
+
+      <div class="form-control">
+      <label for="username">Username</label>
+      <input type="text" id="username" placeholder="Create a Username" />
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+    <label for="birthday">Birthday</label>
+    <input type="date" id="birthday" placeholder="Select your Birthday" />
+    <small>Error message</small>
+  </div>
+
+      <button type="submit">Submit</button>
+      
+    </form>
+  </div>
+  <script src="script/validate-inputs.js"></script>
+  <script src="script/network.js"></script>
+</body>
+
+</html>
