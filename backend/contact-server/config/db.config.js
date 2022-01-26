@@ -1,6 +1,6 @@
 module.exports = {
     HOST: "localhost",
     USER: "admin",
-    PASSWORD: "Media-2019",
+    PASSWORD: "casamia123",
     DB: "contactDB"
 }

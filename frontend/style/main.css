@@ -1,0 +1,376 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 30px 50px 0 0;
+  text-align: right;
+}
+
+.navbar a {
+  padding: 10px;
+  color: #121212;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  margin: 20px;
+  border-radius: 0;
+  border-bottom: 2px solid transparent;
+}
+
+.navigation:hover {
+  border-bottom: 2px solid #121212;
+  transition: .5s;
+}
+
+.navigation.a:active {
+  background-color: rgb(40, 58, 75);
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+/* Flexbox: Header  */
+/* Flexbox: Header  */
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  z-index: 10;
+  border-bottom: 2px solid #EEE;
+}
+
+.logo {
+  background-color: white;
+  height: 80px;
+  width: 25%;
+  padding-left: 5%;
+  padding-top: 22px;
+  font-size: 28px;
+  color: #121212;
+  font-weight: bolder;
+}
+
+.logo a {
+  color: #121212;
+}
+
+.nav {
+  background-color: white;
+  height: 80px;
+  width: 75%;
+}
+
+/*  Container für Scrollpunkt. */
+
+main {
+  height: 800px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.inhalt {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.picture {
+  display: flex;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Helvetica Neue", sans-serif;
+  text-align: center;
+  color: #616161;
+  margin: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: left;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #121212;
+  margin: 20px;
+}
+
+li a:hover {
+  transition: .5s;
+  color: #818181;
+  text-decoration: none;
+}
+
+.quotes {
+  text-align: center;
+  padding-top: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  line-height: 150%;
+  font-size: 32px;
+  color: #818181;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 54px;
+  color: #616161;
+  padding-top: 100px;
+  line-height: 150%;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.quote {
+  display: inline-block;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.footer {
+  padding-top: 35px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 160%;
+  color: #121212;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+footer {
+  background-color: #EEE;
+  height: 100px;
+}
+
+.fliesstext {
+  font-size: 22px;
+  text-align: center;
+  line-height: 160%;
+  color: #818181;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+:root {
+  --success-color: #639468;
+  --error-color: #c64638;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+input {
+  margin: auto;
+  display: flex;
+  text-align: center;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 25px;
+  border: 2px solid #EEE;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  margin: 100px auto 150px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 0 20px;
+  font-size: 44px;
+}
+
+.button {
+  margin: 0 auto;
+  border: 2px solid #000;
+  border-radius: 7px;
+  padding: 15px;
+  width: 170px;
+  text-align: center;
+}
+
+.button:hover {
+  color: white;
+  background-color: #000;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.container-form {
+  text-align: center;
+  width: 500px;
+  border: 2px solid #EEE;
+  border-radius: 25px;
+  margin: 200px auto;
+  padding: 50px;
+}
+
+#form {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container-form h1 {
+  font-size: 24px;
+}
+
+.container-form .form p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.container-form .form .button {
+  margin-top: 20px;
+}
+
+.container-form .form .button a {
+  color: #121212;
+}
+
+.container-form .form .button a:hover {
+  color: white;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.form-control label {
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+
+label {
+  font-family: "Helvetica Neue", sans-serif;
+  margin-top: 15px;
+  color: #616161;
+}
+
+.anrede {
+  font-family: "Helvetica Neue", sans-serif;
+  margin-top: 15px;
+  color: #616161;
+}
+
+small {
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.form {
+  width: 300px;
+}
+
+.form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 16px;
+  color: #616161;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.form-control.success input {
+  border-color: var(--success-color);
+}
+
+.form-control.error input {
+  border-color: var(--error-color);
+}
+
+.form-control small {
+  color: var(--error-color);
+  position: absolute;
+  /* bottom: 0;*/
+  left: 0;
+  margin-top: 5px;
+  visibility: hidden;
+  font-size: .8rem;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+button {
+  margin: auto;
+  padding: 10px 30px;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #000;
+  font-size: 16px;
+  border: 2px solid #121212;
+  border-radius: 7px;
+  background-color: transparent;
+}
+
+.button {
+
+}
+
+.button a {
+  color: #121212;
+  margin: 10px 10px;
+}
+
+.button:hover a {
+  color: white;
+}
+
+button:hover {
+  background-color: #000;
+  transition: 0.3s;
+  color: #fff;
+  cursor: pointer;
+}
+
+select {
+  color: #616161;
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 1.5em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #616161;
+}
